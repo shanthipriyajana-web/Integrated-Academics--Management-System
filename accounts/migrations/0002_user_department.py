@@ -7,10 +7,4 @@ class Migration(migrations.Migration):
         ('accounts', '0001_initial'),
     ]
 
-    operations = [
-        migrations.AddField(
-            model_name='user',
-            name='department',
-            field=models.CharField(blank=True, default='', max_length=200),
-        ),
-    ]
+    operations = []
